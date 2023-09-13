@@ -15,7 +15,7 @@ jobs:
       - name: Lock npm version
         uses: actions/setup-node@v3
         with:
-          node-version: 18.17.1
+          node-version: 16.18.0
 
       - name: Install and Build
         run: |
