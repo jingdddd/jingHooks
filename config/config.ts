@@ -19,13 +19,11 @@ export default {
   ],
   mode: 'site',
   title: 'react hooks',
-  favicon: '/avatar.png',
-  logo: '/logo.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
   alias: {
-    demoHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    jingHooks: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],

@@ -11,8 +11,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "jingHooks": ["./packages/hooks/src/index.ts"],
-      "jing-hooks": ["./packages/hooks/src/index.ts"],
+      "jingHooks": ["packages/hooks/src/index.ts"],
+      "jing-hooks": ["packages/hooks/src/index.ts"],
+      "jingHooks/lib/*": ["./packages/hooks/src/*"],
+      "jing-hooks/lib/*": ["./packages/hooks/src/*"]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
