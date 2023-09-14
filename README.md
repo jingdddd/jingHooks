@@ -46,11 +46,3 @@ React 业务 Hooks
 
 ## 其他
 
-### 生成`CHANGELOG`
-
-参考[conventional-changelog-cli](https://www.npmjs.com/package/conventional-changelog-cli)，全局安装`conventional-changelog-cli`：
-
-```bash
-npm install -g conventional-changelog-cli
-pnpm run changelog
-```
