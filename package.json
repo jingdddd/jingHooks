@@ -8,6 +8,7 @@
     "start": "pnpm run dev",
     "init": "pnpm install && pnpm run build",
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && dumi dev",
+    "test": "jest",
     "build": "pnpm -r --filter=./packages/* run build",
     "build:doc": "set NODE_OPTIONS=--openssl-legacy-provider && dumi build",
     "pub": "pnpm run build && pnpm -r --filter=./packages/* publish",
