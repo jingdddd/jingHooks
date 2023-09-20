@@ -6,6 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
+  publicPath: '/jingHooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
