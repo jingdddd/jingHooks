@@ -55,8 +55,4 @@ npm install -g conventional-changelog-cli
 pnpm run changelog
 ```
 
-## 📧 联系
-
-
-
 </br>

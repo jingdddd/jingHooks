@@ -1,7 +1,6 @@
 ---
 title: 首页
 hero:
-  image: /short-logo.png
   desc: React 业务 Hooks
   actions:
     - text: 指南
@@ -20,13 +19,13 @@ footer: Copyright (c) © 2023 by jingdddd studio, All Rights Reserved
 ## 📦 安装
 
 ```bash
-$ pnpm install --save jingdddd-hooks
+$ pnpm install --save jing-hooks
 # or
-$ yarn add jingdddd-hooks
+$ yarn add jing-hooks
 ```
 
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'jingdddd-hooks';
+import { useToggle } from 'jing-hooks';
 ```

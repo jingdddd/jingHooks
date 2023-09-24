@@ -15,7 +15,6 @@
         "dist",
         "lib",
         "es",
-        "metadata.json",
         "package.json",
         "README.md"
     ],

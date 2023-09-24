@@ -19,7 +19,7 @@ export default {
     ],
   ],
   mode: 'site',
-  title: 'react hooks',
+  title: 'react hooks', 
   dynamicImport: {},
   manifest: {},
   hash: true,
